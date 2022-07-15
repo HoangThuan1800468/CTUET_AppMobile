@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ctuetapp">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CTUETApp">
+        <activity
+            android:name=".User_Sinhvien.Sinhvien_quanly_ketquahoctap_ketquahoctaptungmon"
+            android:exported="false"
+            android:label="Kết Quả Học Tập"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Sinhvien.Sinhvien_quanly_ketquahoctap"
+            android:exported="false"
+            android:label="Danh Sách Lớp Học Phần"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Sinhvien.Sinhvien_quanly_danhsachlop_thongtinlophocphan"
+            android:exported="false"
+            android:label="Thông Tin Lớp Học Phần"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Sinhvien.Sinhvien_quanly_danhsachlop"
+            android:exported="false"
+            android:label="Danh Sách Lớp Học Phần"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Sinhvien.Sinhvien_quanly_thongbaocanhansinhvien"
+            android:exported="false"
+            android:label="Thông Báo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Sinhvien.Sinhvien_quanly_thongtincanhansinhvien"
+            android:exported="false"
+            android:label="Thông Tin Cá Nhân Sinh Viên"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Sinhvien.Sinhvien_trangchinh"
+            android:exported="false"
+            android:label="Sinh Viên"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CTUETApp.NoActionBar" />
+        <activity
+            android:name=".User_Quanly.Quanly_dangnhap_doimatkhau"
+            android:exported="false"
+            android:label="Đổi Mật Khẩu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Giangvien.Giangvien_trangchinh_guithongbao_thongbaolophocphan"
+            android:exported="false"
+            android:label="Gửi Thông Báo Đến Lớp Học Phần"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Giangvien.Giangvien_trangchinh_guithongbao"
+            android:exported="false"
+            android:label="Danh Sách Lớp Học Phần"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Giangvien.Giangvien_trangchinh_quanlylophocphan_thongtinlophoc"
+            android:exported="false"
+            android:label="Thông Tin Lớp Học Phần"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Giangvien.Giangvien_trangchinh_quanlylophocphan"
+            android:exported="false"
+            android:label="Danh Sách Lớp Học Phần Giảng Dạy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Giangvien.Giangvien_trangchinh"
+            android:exported="false"
+            android:label="Giảng Viên"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.CTUETApp.NoActionBar" />
+        <activity
+            android:name=".User_Giangvien.Giangvien_bangdiemsinhvien"
+            android:exported="false"
+            android:label="Bảng Điểm Sinh Viên"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Quanly.Quanly_trangchinh_quanlytaikhoan_danhsachtaikhoan_thongtintaikhoan"
+            android:exported="false"
+            android:label="Thông Tin Tài Khoản Sinh Viên"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Quanly.Quanly_trangchinh_quanlylophocphan_thongtinlophocphan_danhsachsinhvienlophocphan"
+            android:exported="false"
+            android:label="Danh Sách Sinh Viên Lớp Học Phần"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Quanly.Quanly_trangchinh_quanlylophocphan_themlophocphan"
+            android:exported="false"
+            android:label="Thêm Lớp Học Phần"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Quanly.Quanly_trangchinh_quanlylophocphan_thongtinlophocphan"
+            android:exported="false"
+            android:label="Thông Tin Lớp Học Phần"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Quanly.Quanly_trangchinh_quanlytaikhoan_danhsachcaplaimatkhau"
+            android:exported="false"
+            android:label="Danh sách Xin Cấp Lại Mật Khẩu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Quanly.Quanly_trangchinh_quanlytaikhoan_danhsachtaikhoan"
+            android:exported="false"
+            android:label="Danh sách Tài Khoản"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Quanly.Quanly_trangchinh_quanlytaikhoan_taotaikhoan_themthongtinsinhvien"
+            android:exported="false"
+            android:label="Thêm Thông Tin Tài Khoản Sinh Viên"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Quanly.Quanly_trangchinh_quanlytaikhoan_taotaikhoan"
+            android:exported="false"
+            android:label="Tạo Tài Khoản Mới"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Quanly.Quanly_dangnhap_quenmatkhau"
+            android:exported="false"
+            android:label="Tài Khoản"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Quanly.Quanly_trangchinh_quanlylophocphan"
+            android:exported="false"
+            android:label="Quản Lý Lớp Học Phần"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Quanly.Quanly_trangchinh_quanlytaikhoan"
+            android:exported="false"
+            android:label="Quản Lý Tài Khoản"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".User_Quanly.Quanly_trangchinh"
+            android:exported="false"
+            android:label="Quản Lý"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="CTUET Beta 0.1"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

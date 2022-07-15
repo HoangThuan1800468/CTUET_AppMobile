@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Sinhvien.Sinhvien_quanly_danhsachlop_thongtinlophocphan">
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sinhvien_thongtinlophocphan_textview_mamonhoc"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_margin="5dp"
+            android:ems="15"
+            android:gravity="center_vertical"
+            android:text="Mã số môn học: "
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/sinhvien_thongtinlophocphan_textview_tenmonhoc"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:ems="15"
+            android:gravity="center_vertical"
+            android:text="Tên môn học: "
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/sinhvien_thongtinlophocphan_textview_tengv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_margin="5dp"
+            android:ems="15"
+            android:gravity="center_vertical"
+            android:text="Tên giảng viên: "
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/sinhvien_thongtinlophocphan_textview_magv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_margin="5dp"
+            android:ems="15"
+            android:gravity="center_vertical"
+            android:text="Mã giảng viên: "
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/sinhvien_thongtinlophocphan_textview_loaihocphan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:ems="15"
+            android:gravity="center_vertical"
+            android:text="Loại học phần:"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/sinhvien_thongtinlophocphan_textview_phonghoc"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:ems="15"
+            android:gravity="center_vertical"
+            android:text="Phòng học:"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/sinhvien_thongtinlophocphan_textview_sotinchi"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_margin="5dp"
+            android:ems="15"
+            android:gravity="center_vertical"
+            android:text="Số tín chỉ: "
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/sinhvien_thongtinlophocphan_textview_tinhtrang"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_margin="5dp"
+            android:ems="15"
+            android:gravity="center_vertical"
+            android:text="Tình trạng: Đang học "
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/sinhvien_thongtinlophocphan_textview_lythuyetbatdau"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_margin="5dp"
+            android:ems="15"
+            android:gravity="center_vertical"
+            android:text="Ngày học lý thuyết:"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/sinhvien_thongtinlophocphan_textview_lythuyet_tiet"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_margin="5dp"
+            android:ems="15"
+            android:gravity="center_vertical"
+            android:text="Tiết:"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/sinhvien_thongtinlophocphan_textview_lythuyetketthuc"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_margin="5dp"
+            android:ems="15"
+            android:gravity="center_vertical"
+            android:text="Ngày kết thúc lý thuyết: "
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/sinhvien_thongtinlophocphan_textview_thuchanhbatdau"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_margin="5dp"
+            android:ems="15"
+            android:gravity="center_vertical"
+            android:text="Ngày học thực hành từ:"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/sinhvien_thongtinlophocphan_textview_thuchanhtiet"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_margin="5dp"
+            android:ems="15"
+            android:gravity="center_vertical"
+            android:text="Tiết:"
+            android:textSize="18dp" />
+        <TextView
+            android:id="@+id/sinhvien_thongtinlophocphan_textview_thuchanhketthuc"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="4dp"
+            android:layout_margin="5dp"
+            android:ems="15"
+            android:gravity="center_vertical"
+            android:text="Ngày kết thúc thực hành: "
+            android:textSize="18dp" />
+    </LinearLayout>
+</FrameLayout>

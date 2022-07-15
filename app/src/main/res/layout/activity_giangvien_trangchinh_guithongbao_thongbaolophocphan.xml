@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Giangvien.Giangvien_trangchinh_guithongbao_thongbaolophocphan">
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/Giangvien_thongbaolophocphan_textview_lop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:ems="20"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:text="Lớp: "/>
+        <TextView
+            android:id="@+id/Giangvien_thongbaolophocphan_textview_ngay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:ems="20"
+            android:layout_marginBottom="10dp"
+            android:textSize="20dp"
+            android:text="ngay: "/>
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Giangvien_thongbaolophocphan_textbox_noidung"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:ems="10"
+                android:gravity="start"
+                android:inputType="textMultiLine"
+                android:hint="Nhập nội dung thông báo" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Giangvien_thongbaolophocphan_button_huy"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="@color/button"
+                    android:text="Hủy" />
+                <Button
+                    android:id="@+id/Giangvien_thongbaolophocphan_button_gui"
+                    android:layout_width="153dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:backgroundTint="@color/button"
+                    android:text="Gửi" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_Sinhvien.Sinhvien_quanly_ketquahoctap_ketquahoctaptungmon">
+
+    <ScrollView
+        android:id="@+id/screens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout1"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:gravity="left"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginBottom="25dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/logo" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/sinhvien_ketquahoctaptungmon_textview_mamonhoc"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:gravity="center_vertical"
+                android:text="Mã môn học:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/sinhvien_ketquahoctaptungmon_textview_tenmonhoc"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:gravity="center_vertical"
+                android:text="Tên môn học:"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/sinhvien_ketquahoctaptungmon_textview_diemgiuaky"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:gravity="center_vertical"
+                android:text="Điểm giữa kỳ:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/sinhvien_ketquahoctaptungmon_textview_diemthuchanh"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:gravity="center_vertical"
+                android:text="Điểm thực hành:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/sinhvien_ketquahoctaptungmon_textview_diemcuoiky"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:gravity="center_vertical"
+                android:text="Điểm cuối kỳ:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/sinhvien_ketquahoctaptungmon_textview_diemhe10"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:gravity="center_vertical"
+                android:text="Điểm hệ 10:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/sinhvien_ketquahoctaptungmon_textview_diemhe4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:gravity="center_vertical"
+                android:text="Điểm hệ 4:"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/sinhvien_ketquahoctaptungmon_textview_xeploai"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:gravity="center_vertical"
+                android:text="Xếp loại:"
+                android:textSize="18dp" />
+            <TextView
+                android:id="@+id/sinhvien_ketquahoctaptungmon_textview_ketqua"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:gravity="center_vertical"
+                android:text="Kết quả:"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/sinhvien_ketquahoctaptungmon_textview_ghichu"
+                android:layout_width="match_parent"
+                android:layout_height="211dp"
+                android:layout_margin="5dp"
+                android:ems="15"
+                android:gravity="top"
+                android:text="Ghi chú:"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
