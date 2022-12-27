@@ -14,8 +14,3 @@
 * Quản trị viên:
 + Quản lý lớp học phần
 + Quản lý tài khoản
-
-
-
-
-=> Đây là đồ án năm 3, thiết kế và lập trình bởi 2 người là Lý Hoàng Thuận và Lê Hải Dâng
